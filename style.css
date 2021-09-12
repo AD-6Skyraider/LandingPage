@@ -1,0 +1,21 @@
+/* Link for Goog Font - IM Fell DW Pica SC */
+/* <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IM+Fell+DW+Pica+SC&display=swap" rel="stylesheet">  */
+/* Import */
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+DW+Pica+SC&display=swap');
+/* font-family: 'IM Fell DW Pica SC', serif; */
+
+* {
+    font-family: 'IM Fell DW Pica SC', serif;
+}
+
+
+.topnav {
+    color: rgb(187, 10, 10);
+    display: flex;
+}
+
+section {
+    background-image: url("ship.jpg");
+}
