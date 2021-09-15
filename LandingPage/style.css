@@ -1,0 +1,110 @@
+/* Link for Goog Font - IM Fell DW Pica SC */
+/* <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IM+Fell+DW+Pica+SC&display=swap" rel="stylesheet">  */
+/* Import */
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+DW+Pica+SC&display=swap');
+/* font-family: 'IM Fell DW Pica SC', serif; */
+
+* {
+    padding: 0;
+    margin: 0;
+    /* box-sizing: border-box includes padding and border when setting a width or height. */
+    box-sizing: border-box;
+}
+
+* {
+    font-family: 'IM Fell DW Pica SC', serif;
+}
+
+h1 {
+    font-weight: 400;
+    font-size: 150px;
+    line-height: 1;
+    margin-bottom: 20px;
+}
+
+#coin {
+    font-size: 45px;
+}
+
+p {
+    font-size: 20px;
+}
+
+#Pcoin:hover {
+    /* Changes the size of an element. */
+    transform: scale(1.25);       
+}
+
+#main {
+    position: relative;
+/* VH (Viewport height) determines the height of the element by setting it to a percentage of the viewport. NOTE: VW is used for width. */
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+
+    /* So the text does NOT go right up against the edge on smaller screen sizes.  */
+    /* padding: 0 20px; */
+}
+
+#pirate-ship {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(cover.png); 
+    background-color: black;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#cover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 104%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#content {
+    color: rgb(253, 3, 3);
+    z-index: 3;
+    text-align: center;
+}
+
+#about {
+    margin-top: 8%;
+    padding: 50px;
+    text-align: center;
+}
+
+#about p {
+    font-size: 20px;
+    max-width: 500px;
+    margin: auto;
+    }
+
+    #red-2 {
+        font-weight: 400;
+        font-size: 100px;
+        line-height: 1;
+        margin-bottom: 5%;
+    }
+
+    #about h2 {
+        margin: 40px 0;
+        color: #black;
+        }
+
+    i {
+        font-size: 48px;
+        margin: 0 5px;
+        color: rgb(253, 3, 3);
+    }
